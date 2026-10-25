@@ -1,6 +1,6 @@
 # Lab Report, Code Quality and Design Quality
 
-Repository URL:
+Repository URL: https://github.com/Getto55/itcs382-lab.git
 
 ## Tools
 
@@ -105,7 +105,7 @@ The two design problems that you fixed
 | Design problem (course term) | What you changed | Commit |
 | --- | --- | --- |
 | Use try-with-resources or close this "FileWriter" in a "finally" clause. | put the FileWriter in a try-with-resources block | f449b2b |
-| Nested blocks of code should not be left empty | add catch exception |  |
+| Nested blocks of code should not be left empty | add catch exception | 1341211 |
 
 Output of the program after your fixes, for the commands `store P1 6501 2`, `pickup P1 5` and `staff`, and the content of parcels.csv:
 
@@ -126,12 +126,12 @@ output: P1,STORED
 
 | Item | bikeshare-poor | bikeshare-good |
 | --- | --- | --- |
-| Date | | |
-| AI tool and exact model | | |
-| Prompt (B or C as given, or your changed prompt in full) | | |
-| Builds with mvn package (yes or no) | | |
-| Number of classes, interfaces, enums and records | | |
-| SonarQube issues, total | | |
+| Date | 25/10/2026 | 25/10/2026 |
+| AI tool and exact model | Gemini 3.1 Pro | Gemini 3.1 Pro |
+| Prompt (B or C as given, or your changed prompt in full) | C | B |
+| Builds with mvn package (yes or no) |Yes | Yes|
+| Number of classes, interfaces, enums and records | 1 | 10 |
+| SonarQube issues, total | 22|39 |
 | SonarQube issues, by rule | | |
 | AI review findings in Check 1 | | |
 | AI review findings in Check 2 | | |
