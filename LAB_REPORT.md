@@ -104,8 +104,8 @@ The two design problems that you fixed
 
 | Design problem (course term) | What you changed | Commit |
 | --- | --- | --- |
-| Use try-with-resources or close this "FileWriter" in a "finally" clause. | put the FileWriter in a try-with-resources block | Close FileWriter with try-with-resources |
-| Nested blocks of code should not be left empty | add catch exception | Handle exception |
+| Use try-with-resources or close this "FileWriter" in a "finally" clause. | put the FileWriter in a try-with-resources block | f449b2b |
+| Nested blocks of code should not be left empty | add catch exception |  |
 
 Output of the program after your fixes, for the commands `store P1 6501 2`, `pickup P1 5` and `staff`, and the content of parcels.csv:
 
